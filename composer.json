@@ -1,0 +1,21 @@
+{
+    "name": "el-capitano/php-user-2",
+    "description": "MP UPLOADER",
+    "autoload": {
+        "psr-4": {
+            "ElCapitano\\PhpUser2\\": "core/",
+            "App\\Controller\\": "app/controller/",
+            "App\\Model\\": "app/model/",
+            "App\\View\\": "app/view/"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "IV KOS"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "^4.2"
+    }
+}
